@@ -20,16 +20,6 @@ export const Trabajo = () => {
       descripcion:"Alex_Nails es una empresa de manicura,a la cual se le construyo un menu de registro e inicio de sesión como a su ves una forma de mostrar posibilidad, productos una lista de precios, galería de trabajos anteriores y una agenda para los clientes asi como una forma de pago.",
       Comercio: Iinicio.Alex_nails,
       tecnologias: [Tecnologias.html5,Tecnologias.css,Tecnologias.SASS,Tecnologias.JS,Tecnologias.REACT]
-    },
-    {
-      descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste officia excepturi omnis neque ad reiciendis maxime similique ducimus ipsam, esse quidem perferendis qui dolore nihil tenetur necessitatibus quos sed delectus.",
-      Comercio: Iinicio.Alex_nails,
-      tecnologias: [Tecnologias.Git]
-    },
-    {
-      descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste officia excepturi omnis neque ad reiciendis maxime similique ducimus ipsam, esse quidem perferendis qui dolore nihil tenetur necessitatibus quos sed delectus.",
-      Comercio: Iinicio.Alex_nails,
-      tecnologias: [Tecnologias.Git]
     }
   ];
 

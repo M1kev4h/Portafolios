@@ -1,0 +1,80 @@
+.Contactame {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #0c192c;
+}
+.Contactame-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 18px 0;
+}
+.Contactame-Container form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.Contactame-Container__Imput {
+  font-size: 35px;
+  font-weight: bold;
+  outline: none;
+  width: 600px;
+  text-align: center;
+  background-color: #162947;
+  border: none;
+  color: #4fc3dc;
+}
+.Contactame-Container__Btn-Copiar {
+  margin: auto;
+  background-color: rgba(236, 70, 134, 0.8431372549);
+  color: rgb(255, 206, 206);
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 0px 20px;
+  font-size: 35px;
+  text-decoration: none;
+  border: 0.25em solid #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 0.75em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2, 0 0 0.25em #ff70a2;
+  text-shadow: 0 0 0.25em #ff70a2;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.Contactame-Container__Btn-Copiar.Activo {
+  color: #801a41;
+  background-color: #ff70a2;
+}
+.Contactame-Container__Btn-Copiar:hover {
+  color: #801a41;
+  background-color: #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 1em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2;
+}
+.Contactame-Container__Btn-Contactar {
+  margin: auto;
+  background-color: rgba(236, 70, 134, 0.8431372549);
+  color: rgb(255, 206, 206);
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 0px 20px;
+  font-size: 35px;
+  text-decoration: none;
+  border: 0.25em solid #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 0.75em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2, 0 0 0.25em #ff70a2;
+  text-shadow: 0 0 0.25em #ff70a2;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.Contactame-Container__Btn-Contactar.Activo {
+  color: #801a41;
+  background-color: #ff70a2;
+}
+.Contactame-Container__Btn-Contactar:hover {
+  color: #801a41;
+  background-color: #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 1em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2;
+}/*# sourceMappingURL=Contactame.css.map */

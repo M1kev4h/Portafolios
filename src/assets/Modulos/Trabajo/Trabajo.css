@@ -1,0 +1,37 @@
+.Trabajo {
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+  margin-bottom: 100px;
+}
+
+.Trabajo-Realizados {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: start;
+  display: none;
+}
+.Trabajo-Realizados h2 {
+  margin: 20px 80px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Trabajo-Desarrollo {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: end;
+}
+.Trabajo-Desarrollo h2 {
+  margin: 20px 80px;
+  font-size: 50px;
+  color: #fff;
+}/*# sourceMappingURL=Trabajo.css.map */

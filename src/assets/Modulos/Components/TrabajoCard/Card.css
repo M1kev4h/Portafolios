@@ -1,0 +1,77 @@
+.CardContainer {
+  display: flex;
+  margin: 0px 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  position: relative;
+}
+.CardContainer__Avatar {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.CardContainer-Descripcion {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #0c192c;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  padding: 20px 50px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s all ease-out;
+}
+.CardContainer-Descripcion:hover {
+  opacity: 0.9;
+}
+.CardContainer-Descripcion__Parrafo {
+  max-width: 80ch;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+.CardContainer-Descripcion__Parrafo::first-letter {
+  padding: 0px 5px;
+  font-size: 35px;
+  background-color: #162947;
+}
+.CardContainer-Descripcion__Tecnologias {
+  display: flex;
+  flex-direction: row;
+  margin: auto 160px;
+  gap: 15px;
+  width: 25px;
+}
+.CardContainer-Descripcion__Button {
+  margin: auto;
+  background-color: rgba(236, 70, 134, 0.8431372549);
+  color: rgb(255, 206, 206);
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 10px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 0.25em solid #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 0.75em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2, 0 0 0.25em #ff70a2;
+  text-shadow: 0 0 0.25em #ff70a2;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.CardContainer-Descripcion__Button.Activo {
+  color: #801a41;
+  background-color: #ff70a2;
+}
+.CardContainer-Descripcion__Button:hover {
+  color: #801a41;
+  background-color: #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 1em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2;
+}/*# sourceMappingURL=Card.css.map */

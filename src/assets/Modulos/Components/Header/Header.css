@@ -1,0 +1,36 @@
+.Navbar.visible {
+  left: 0;
+}
+
+.Container-Header {
+  z-index: 2;
+  background: linear-gradient(#0c192c, #00212C 30% 70%, #162947);
+  height: 100vh;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  transition: margin-left 0.5s;
+}
+.Container-Header__Img {
+  width: 60px;
+}
+.Container-Header__Images {
+  margin-top: 10px;
+}
+.Container-Header__Image {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  border-radius: 50%;
+  transition: all 0s;
+  cursor: pointer;
+}
+
+@keyframes Rotar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,44 @@
+@use '../../../Sass/Astrabsions/Var.sass'as v;
+
+.Navbar.visible {
+    left: 0; 
+  }
+  
+.Container-Header{
+    z-index: 2;
+    background: linear-gradient(v.$BackGround ,v.$VerdeMuyOscuro 30% 70%,v.$BackGround2);
+    height: 100vh;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    transition: margin-left 0.5s;
+
+    &__Img{
+        width: 60px;
+    }
+
+    &__Images{
+        margin-top: 10px;
+    }
+
+    &__Image{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        border-radius: 50%;
+        transition: all 0s;
+        cursor: pointer;
+       
+    }
+
+}
+@keyframes Rotar {
+  
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}

@@ -1,0 +1,82 @@
+.Inicio {
+  position: relative;
+}
+.Inicio-Fondo {
+  background-image: url(../../img/Back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.Inicio-FlexContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.Inicio-FlexContainer__Img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Inicio-FlexContainer__Avatar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 50%;
+  top: -150px;
+  width: 250px;
+  left: 600px;
+}
+.Inicio-FlexContainer__Info {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding-right: 200px;
+}
+.Inicio-FlexContainer__Titulo {
+  font-weight: 500;
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 15ch;
+  animation: typing 1.5s steps(14), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+.Inicio-FlexContainer__SubTitulo {
+  color: #ff2d75;
+  font-size: 45px;
+  font-weight: 700;
+}
+.Inicio-FlexContainer__Correo {
+  opacity: 0.7;
+  color: #4fc3dc;
+  font-size: 40px;
+}
+.Inicio-FlexContainer__Presentacion {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Inicio-FlexContainer__Presentacion a {
+  text-decoration: none;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}/*# sourceMappingURL=Inicio.css.map */

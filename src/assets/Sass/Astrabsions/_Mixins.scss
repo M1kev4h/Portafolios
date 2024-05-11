@@ -1,0 +1,78 @@
+@use './_Var.sass'as v;
+
+@mixin RedButton($Color1,$FuenteColor,$Color2,$Color3,$Color4,$Padd,$Size){
+    margin: auto;
+    // background-color:v.$BotonRojaBackClaro;
+    background-color:$Color1;
+    // color: v.$BotonFuenteColor;
+    color: $FuenteColor;
+    font-weight: bold;
+    border-radius: 1em;
+    // padding:1em 3em;
+    padding:$Padd;
+    // font-size:20px ;
+    font-size:$Size ;
+    text-decoration: none;
+    // border:0.25em solid v.$BotonRojaResp;
+    border:0.25em solid $Color2;
+    box-shadow:  
+    // 0 0 0.75em .15em v.$BotonRojaResp,
+    0 0 0.75em .15em $Color2,
+    // 0 0 3em 0.75em v.$BotonRoja,
+    0 0 3em 0.75em $Color3,
+    // inset 0 0 .5em .15em v.$BotonRojaResp,
+    inset 0 0 .5em .15em $Color2,
+    // 0 0 .25em v.$BotonRojaResp;
+    0 0 .25em $Color2;
+    // text-shadow: 0 0 .25em v.$BotonRojaResp;
+    text-shadow: 0 0 .25em $Color2;
+    position: relative;
+    transition: all .3s;
+    cursor: pointer;
+
+    &.Activo{
+    //   color: v.$BotonRojaBack;
+      color:$Color4;
+        background-color: $Color2;
+    }
+      &:hover{
+        // color: v.$BotonRojaBack;
+        color: $Color4;
+        // background-color: v.$BotonRojaResp;
+        background-color: $Color2;
+        // box-shadow:0 0 .75em .15em v.$BotonRojaResp,
+        box-shadow:0 0 .75em .15em $Color2,
+        // 0 0 3em 1em v.$BotonRoja,
+        0 0 3em 1em $Color3,
+        // inset 0 0 .5em .15em v.$BotonRojaResp ;
+        inset 0 0 .5em .15em $Color2 ;
+      }
+}
+
+@mixin Red ($Texto, $Size){
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    opacity: 0.8;
+    &:hover {
+        transition: opacity 0.3s ease;
+        &::after {
+            position: relative;
+            content: $Texto;
+            background-color: v.$ColorFuenteBlanca;
+            height: 50px;
+            padding: 0px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: $Size;
+            color: v.$BackGround2;
+            left: -8px;
+            opacity: 0.7;
+            
+           
+        }
+    }
+}

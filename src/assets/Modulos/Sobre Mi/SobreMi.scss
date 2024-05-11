@@ -1,0 +1,72 @@
+@use '../../Sass/Astrabsions/_Var.sass' as v;
+@use '../../Sass/Astrabsions/_Mixins.scss' as M;
+
+
+.SobreMi {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -100px;
+
+    &-Container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+
+        &__Descripcion {
+
+            display: flex;
+            align-items: center;
+            background: v.$BackGround2;
+
+
+            &-Img {
+                width: 300px;
+            }
+
+            &-P {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                max-width: 80ch;
+                padding: 0px 20px;
+                color: v.$ColorFuenteBlanca;
+                margin: auto;
+            }
+        }
+
+        &__Tecnologias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: auto;
+            margin-top: 50px;
+            padding-left: 150px;
+            gap:60px ;
+
+            &-Item {
+                width: 100px;
+            }
+
+        }
+
+        &__Redes {
+        position: relative;
+        width: 50px;
+        left: 50px;
+        bottom: 280px;
+        display: grid;
+        gap: 15px;
+        }
+    }
+}
+.Red-Git2{
+    @include M.Red("M1kev4h", 25px);
+}
+
+.Red-Linkedin2{
+   @include M.Red("Michael Venade", 20px);
+}
+
+.Red-Whatsapp2{
+    @include M.Red("092544699", 25px);
+}

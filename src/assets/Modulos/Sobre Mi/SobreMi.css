@@ -1,0 +1,125 @@
+.SobreMi {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -100px;
+}
+.SobreMi-Container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+.SobreMi-Container__Descripcion {
+  display: flex;
+  align-items: center;
+  background: #162947;
+}
+.SobreMi-Container__Descripcion-Img {
+  width: 300px;
+}
+.SobreMi-Container__Descripcion-P {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 80ch;
+  padding: 0px 20px;
+  color: #fff;
+  margin: auto;
+}
+.SobreMi-Container__Tecnologias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 150px;
+  gap: 60px;
+}
+.SobreMi-Container__Tecnologias-Item {
+  width: 100px;
+}
+.SobreMi-Container__Redes {
+  position: relative;
+  width: 50px;
+  left: 50px;
+  bottom: 280px;
+  display: grid;
+  gap: 15px;
+}
+
+.Red-Git2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.Red-Git2:hover {
+  transition: opacity 0.3s ease;
+}
+.Red-Git2:hover::after {
+  position: relative;
+  content: "M1kev4h";
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #162947;
+  left: -8px;
+  opacity: 0.7;
+}
+
+.Red-Linkedin2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.Red-Linkedin2:hover {
+  transition: opacity 0.3s ease;
+}
+.Red-Linkedin2:hover::after {
+  position: relative;
+  content: "Michael Venade";
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #162947;
+  left: -8px;
+  opacity: 0.7;
+}
+
+.Red-Whatsapp2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.Red-Whatsapp2:hover {
+  transition: opacity 0.3s ease;
+}
+.Red-Whatsapp2:hover::after {
+  position: relative;
+  content: "092544699";
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #162947;
+  left: -8px;
+  opacity: 0.7;
+}/*# sourceMappingURL=SobreMi.css.map */

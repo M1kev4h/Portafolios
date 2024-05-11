@@ -1,0 +1,21 @@
+*{
+    scroll-behavior: smooth;
+    
+}
+
+.FlexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer{
+    
+    margin-left:60px ;
+    transition: all 0.5s;
+    
+    &.Activo{
+        margin-left: 160px;
+    }
+}

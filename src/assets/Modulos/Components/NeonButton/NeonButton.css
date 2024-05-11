@@ -1,0 +1,29 @@
+.Button-Container {
+  margin-top: 50px;
+}
+
+.NeonButton {
+  margin: auto;
+  background-color: rgba(236, 70, 134, 0.8431372549);
+  color: rgb(255, 206, 206);
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 1em 3em;
+  font-size: 20px;
+  text-decoration: none;
+  border: 0.25em solid #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 0.75em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2, 0 0 0.25em #ff70a2;
+  text-shadow: 0 0 0.25em #ff70a2;
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.NeonButton.Activo {
+  color: #801a41;
+  background-color: #ff70a2;
+}
+.NeonButton:hover {
+  color: #801a41;
+  background-color: #ff70a2;
+  box-shadow: 0 0 0.75em 0.15em #ff70a2, 0 0 3em 1em #ff2d75, inset 0 0 0.5em 0.15em #ff70a2;
+}/*# sourceMappingURL=NeonButton.css.map */

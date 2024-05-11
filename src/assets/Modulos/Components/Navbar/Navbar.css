@@ -1,0 +1,89 @@
+.Container-NavBar {
+  z-index: 2;
+  background: linear-gradient(to top, #0c3745, #00212C, #0c192c 190%);
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5% 0;
+  transition: transform 0.5s ease;
+}
+.Container-NavBar.visible {
+  transform: translateX(0);
+}
+.Container-NavBar.hidden {
+  transform: translateX(-100px);
+}
+.Container-NavBar__Images {
+  margin-top: 40px;
+}
+.Container-NavBar__Image {
+  transition: box-shadow 0.5s ease, opacity 0.5s ease;
+  opacity: 1;
+  box-shadow: 0 0 25px transparent, 0 0 50px transparent;
+  box-shadow: 5px 5px 10px #0c192c, 5px 0 5px #0c192c;
+  background: radial-gradient(#104556, #0c3745, #00212C 90%);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 15%;
+  margin-bottom: 50px;
+  transition: all 0s;
+  cursor: pointer;
+}
+.Container-NavBar__Image.activo {
+  background: rgba(77, 210, 240, 0.5764705882);
+  box-shadow: 0 0 50px #4fc3dc, 0 0 70px #4fc3dc;
+  opacity: 0.8;
+  filter: drop-shadow(-0.1em 0.2px 1px rgb(57, 0, 52));
+}
+.Container-NavBar__Img1 {
+  height: 35px;
+  width: 100%;
+  filter: drop-shadow(0px 5px 0px rgb(57, 0, 52));
+}
+.Container-NavBar__Img1.activo1 {
+  filter: none;
+}
+.Container-NavBar__Img2 {
+  height: 35px;
+  width: 100%;
+  filter: drop-shadow(0px 5px 0px rgb(57, 0, 52));
+}
+.Container-NavBar__Img2.activo2 {
+  filter: none;
+}
+.Container-NavBar__Imgen3 {
+  height: 35px;
+  width: 100%;
+  filter: drop-shadow(0px 5px 0px rgb(57, 0, 52));
+}
+.Container-NavBar__Imgen3.activo3 {
+  filter: none;
+}
+.Container-NavBar__Img4 {
+  height: 35px;
+  width: 100%;
+  filter: drop-shadow(0px 5px 0px rgb(57, 0, 52));
+}
+.Container-NavBar__Img4.activo4 {
+  filter: none;
+}
+
+@keyframes pulseAnimate {
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+@keyframes ColorAnimate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}/*# sourceMappingURL=Navbar.css.map */

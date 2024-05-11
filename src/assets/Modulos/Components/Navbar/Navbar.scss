@@ -1,0 +1,112 @@
+@use '../../../Sass/Astrabsions/Var.sass' as v;
+
+.Container-NavBar {
+
+    
+    z-index: 2;
+    background: linear-gradient(to top, v.$VerdeOscuro , v.$VerdeMuyOscuro , v.$BackGround 190%);
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5% 0;
+    transition: transform 0.5s ease;
+    
+  
+
+    &.visible {
+        transform: translateX(0);
+    }
+
+    &.hidden {
+        transform: translateX(-100px);
+
+    }
+
+    &__Images {
+        margin-top: 40px;
+
+
+    }
+  
+    &__Image {
+        transition: box-shadow 0.5s ease, opacity 0.5s ease;
+        opacity: 1;
+        box-shadow: 0 0 25px transparent, 0 0 50px transparent;
+        box-shadow: 5px 5px 10px v.$BackGround,
+            5px 0 5px v.$BackGround;
+        background: radial-gradient(v.$Verde , v.$VerdeOscuro , v.$VerdeMuyOscuro 90%);
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 15%;
+        margin-bottom: 50px;
+        transition: all 0s;
+        cursor: pointer;
+
+       
+
+        &.activo {
+            background: #4dd2f093;
+            box-shadow: 0 0 50px v.$BolaAzul,
+                         0 0 70px v.$BolaAzul;
+            opacity: .8;
+            filter: drop-shadow(-0.1em 0.2px 1px rgb(57, 0, 52));
+            
+        }
+
+    }
+   
+   
+    &__Img1{
+        height: 35px;
+        width: 100%;
+        filter: drop-shadow(0px 5px 0px rgba(57, 0, 52));
+         &.activo1 {
+            filter:none;
+        }
+    }
+    &__Img2{
+        height: 35px;
+        width: 100%;
+        filter: drop-shadow(0px 5px 0px rgba(57, 0, 52));   
+        &.activo2 {
+            filter:none;
+        }
+    }&__Imgen3{
+        height: 35px;
+        width: 100%;
+        filter: drop-shadow(0px 5px 0px rgba(57, 0, 52));
+        &.activo3 {
+            filter:none;
+        }
+    }&__Img4{
+        height: 35px;
+        width: 100%;
+        filter: drop-shadow(0px 5px 0px rgba(57, 0, 52));
+        &.activo4 {
+            filter:none;
+        }
+    }
+    
+
+}
+
+@keyframes pulseAnimate {
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+@keyframes ColorAnimate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

@@ -1,0 +1,85 @@
+.Redes {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px 70px;
+}
+
+.Red-Git {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.Red-Git:hover {
+  transition: opacity 0.3s ease;
+}
+.Red-Git:hover::after {
+  position: relative;
+  content: "M1kev4h";
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #162947;
+  left: -8px;
+  opacity: 0.7;
+}
+
+.Red-Linkedin {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.Red-Linkedin:hover {
+  transition: opacity 0.3s ease;
+}
+.Red-Linkedin:hover::after {
+  position: relative;
+  content: "Michael Venade";
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #162947;
+  left: -8px;
+  opacity: 0.7;
+}
+
+.Red-Whatsapp {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.Red-Whatsapp:hover {
+  transition: opacity 0.3s ease;
+}
+.Red-Whatsapp:hover::after {
+  position: relative;
+  content: "092544699";
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #162947;
+  left: -8px;
+  opacity: 0.7;
+}/*# sourceMappingURL=Redes.css.map */

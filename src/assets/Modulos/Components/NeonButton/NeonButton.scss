@@ -1,0 +1,23 @@
+@use '../../../Sass/Astrabsions/_Var.sass'as v;
+@use '../../../Sass/Astrabsions/_Mixins.scss'as M;
+
+.Button-Container{
+    margin-top: 50px;
+}
+
+.NeonButton{
+  @include M.RedButton (
+  v.$BotonRojaBackClaro,
+  v.$BotonFuenteColor,
+  v.$BotonRojaResp,
+  v.$BotonRoja,
+  v.$BotonRojaBack,
+  1em 3em,
+  20px
+  )
+  }
+ 
+  
+  
+  
+  

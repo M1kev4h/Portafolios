@@ -1,0 +1,22 @@
+@use '../../../Sass/Astrabsions/_Var.sass' as v;
+@use '../../../Sass/Astrabsions/_Mixins.scss' as M;
+
+.Redes {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px 70px;
+
+}
+.Red-Git{
+    @include M.Red("M1kev4h", 25px);
+}
+
+.Red-Linkedin{
+   @include M.Red("Michael Venade", 20px);
+}
+
+.Red-Whatsapp {
+    @include M.Red("092544699", 25px);
+}
